@@ -12,11 +12,24 @@
     - average([1, '2']) // Retorno: undefined;
 */
 
+const { array } = require("yargs");
+
 const average = (myArr) => {
   let val = 0
-  if (myArr.lenght === 0){
+  if (myArr.lenght == 0){
     return undefined
-} 
+}
+for (const index = 0; index < array.length; index +=1 ){
+  if (typeof (array[index]) != 'number'){
+    
+    return undefined
+  }
+  val = val + array[index]
+
+  result = Math.round(val / array.length);
+  return result
+}
+
 
 };
 
