@@ -18,12 +18,14 @@
 
 const vqv = (nome, idade) => {
   if (typeof(!nome || !idade)){
-    return undefined
+    return undefined;
   }
-  paragrapah = (`Oi, meu nome é ${nome}!
+  paragraph = (`Oi, meu nome é ${nome}!
   Tenho ${idade} anos,
   trabalho na Trybe e mando muito em programação!
   #VQV!`)
+
+  return paragraph;
 
 };
 
