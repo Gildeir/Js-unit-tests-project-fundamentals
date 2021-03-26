@@ -28,5 +28,4 @@ for (let index = 0; index < array.length; index +=1 ){
 result = Math.round(sum / array.length);
 return result
 };
-
 module.exports = average;
