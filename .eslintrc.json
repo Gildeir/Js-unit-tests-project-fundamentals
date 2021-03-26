@@ -11,6 +11,10 @@
     "prefer-const": "off",
     "no-unused-vars": "off",
     "max-lines-per-function": "off",
+    "no-var": "off",
+    "vars-on-top": "off",
+    "block-scoped-var": "off",
+    "no-redeclare": "off",
     "no-restricted-syntax": [
       "off",
       "FunctionExpression",
