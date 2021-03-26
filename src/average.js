@@ -12,20 +12,18 @@
     - average([1, '2']) // Retorno: undefined;
 */
 
-const {array } = require("yargs");
+const { array } = require('yargs');
 
 const average = (myArr) => {
-  let sum = 0
-  if (myArr.lenght === 0){
-    return undefined
-}
-for (let index = 0; index < array.length; index +=1 ){
-  if (typeof (array[index]) != 'number'){    
-    return undefined
+  let sum = 0;
+  if (myArr.lenght === 0) { return undefined; }
+  for (let index = 0; index < array.length; index += 1) {
+    if (typeof (array[index]) !== 'number') {
+      return undefined;
+    }
+    sum += array[index];
+    const result = Math.round(sum / array.length);
+    return result;
   }
-  sum += array[index]  
-}
-result = Math.round(sum / array.length);
-return result
 };
 module.exports = average;
