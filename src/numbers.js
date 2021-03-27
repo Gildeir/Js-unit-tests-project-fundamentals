@@ -10,8 +10,8 @@
 */
 
 const numbers = (myArray) => {
-  for (let i = 0; i < myArray.length; i += 1) {
-    if (typeof myArray[i] !== 'number') {
+  for (let index = 0; index < myArray.length; index += 1) {
+    if (typeof myArray[index] !== 'number') {
       return false;
     }
   }
