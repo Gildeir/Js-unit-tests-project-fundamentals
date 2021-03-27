@@ -14,16 +14,17 @@
 
 const { array } = require('yargs');
 
-const average = (myArr) => {
+const average = (arr) => {
+  if (arr.length === 0) {
+    return undefined;
+  }
   let sum = 0;
-  if (myArr.lenght === 0) { return undefined; }
-  for (let number of myArr) {
-    if (typeof (array) !== 'number') {
+  for (let index = 0; index < arr.length; index += 1) {
+    if (typeof (arr[index]) !== 'number') {
       return undefined;
     }
-    sum += array;
-    const result = Math.round(sum / array.length);
-    return result;
+    sum += arr[index];
   }
+  const result = Math.round(sum / arr.length);
 };
 module.exports = average;
