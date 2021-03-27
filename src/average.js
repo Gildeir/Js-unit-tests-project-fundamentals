@@ -12,7 +12,7 @@
     - average([1, '2']) // Retorno: undefined;
 */
 
-const { array } = require('yargs');
+// const { array } = require('yargs');
 
 const average = (arr) => {
   if (arr.length === 0) {
