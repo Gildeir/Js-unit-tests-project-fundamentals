@@ -59,7 +59,7 @@ Você implementará várias funções para atender aos requisitos propostos e/ou
 
   - Será um dia de projeto;
 
-  - O projeto tem até a seguinte data: `02/04/2021 - 14:00h` para ser entregue a avaliação final.
+  - O projeto tem até a seguinte data: `03/04/2021 - 14:00h` para ser entregue a avaliação final.
 
 ---
 
