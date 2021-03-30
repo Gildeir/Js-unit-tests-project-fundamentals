@@ -47,6 +47,6 @@ describe('#productDetails', () => {
     assert.notDeepStrictEqual(productDts[0], productDts[1]);
     // (Difícil) Teste que os dois productIds terminam com 123.
     assert.strictEqual(productDts[0].endsWith(123));
-    assert.strictEqual(productDts[0].endsWith(123));
+    assert.strictEqual(productDts[1].endsWith(123));
   });
 });
